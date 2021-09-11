@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>My Homepage</title>
+    <link type="text/css" rel="stylesheet" href="Untitled-1.css">
+    <style>
+      @font-face {
+        font-family: "Vera Serif Bold";
+        src: url("http://developer.mozilla.org/@api/deki/files/2934/=VeraSeBd.ttf");
+      }
+
+
+
+      p {
+        background-color: lightcoral;
+        border: 2px solid goldenrod;
+        /*type selector*/
+      }
+
+      h1 {
+        background-color: lightblue;
+        border: green;
+        padding: 20px 20px 20px;
+      }
+
+      h1#s1 {
+        font-style: normal;
+        font-weight: bold;
+      }
+
+      h1#s2 {
+        font-style: italic;
+        font-weight: lighter;
+      }
+
+      #special {
+        color: purple;
+      }
+
+      .typeA {
+        text-align: center;
+      }
+
+      .typeB {
+        text-align: left;
+      }
+
+      .typeC {
+        text-align: right;
+      }
+
+      h4,
+      h5,
+      h6 {
+        font-family: sans-serif;
+      }
+
+      body em {
+        color: saddlebrown
+      }
+
+      body>h1 {
+        color: royalblue
+      }
+
+      /*inheritance?*/
+
+    div {
+        border: 2px solid red;
+        padding: 10px 20px;
+        border-radius: 25px;
+    }
+
+    #target {
+        border: 1px solid red;
+        background-color: lightslategray;
+        width: 100px;
+        height: auto;
+        resize: both;
+        overflow: auto;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    
+    </style>
+
+  </head>
+
+  <body>
+
+    <br>
+    <div id="target"> Div This!</div>
+    <br>
+    <div>
+        <p>DIVVED</p><br>
+    </div>
+    <p class="first">class first</p><br>
+    <p class="second">class second</p><br>
+    <h1>this is standard h1 of 1.0em</h1><br>
+    <h2>This is h2 testing for font size inheritance of 2.0em</h2>
+    <br>
+    <h1 id="s1">this is id s1 of h1</h1><br>
+    <h1 id="s2">this is id s2 of h1</h1><br>
+
+
+    <p class="shorthand">shorthand p</p><br>
+
+
+    <h1>Border Radius lmao this page is messy</h1><br>
+
+    <br>
+    <br>
+    <p class="poem">Had I the heavens' embroidered cloths,
+      Enwrought with golden and silver light,
+      The blue and the dim and the dark cloths
+      Of night and light and the half light,
+      I would spread the cloths under your feet:
+      But I, being poor, have only my dreams;
+      I have spread my dreams under your feet;
+      Tread softly because you tread on my dreams.</p>
+    <br>
+    <br>
+    <p>Test for p</p><br>
+    <p id="special">Test for special</p><br>
+    <h1>Test for border in CSS</h1><br>
+    <textarea rows="5" cols="50">
+            &lt;html&gt;
+                &lt;body&gt;
+                    &lt;h1&gt;This is a header. &lt;h1&gt;
+                &lt;/body&gt;
+            &lt;/html&gt;
+        </textarea>
+    <br />
+    <br />
+
+    <iframe src="" width="420" height="80"></iframe>
+
+
+    <div style="border: 3px solid red;">
+      <h2>Lion</h2>
+      <p>
+        Lion lives in Africa, has strong legs and jaw, and
+        <span style="color:red;">long teeth</span>
+      </p>
+    </div>
+
+    <div style="height: 20px; background-color: red;"></div>
+    <div style="height: 20px; background-color: green;"></div>
+    <div style="height: 20px; background-color: blue;"></div>
+
+    <br />
+    <br />
+
+    <p>Html input style</p>
+    <br>
+    <form>
+      URL: <input type="url" name="url" required><br>
+    </form>
+
+
+    <br>
+
+    <br>
+
+    <br>
+
+    <form action="MAILTO:jk9576@gmail.com" method="post" enctype="text/plain">
+      name: <input type="text" name="name" value=""><br>
+      <input type="radio" name="gender" value="Male">
+      Male:<br>
+      <input type="radio" name="gender" value="Female">
+      Female:<br>
+      Telephone Number: <input type="tel" name="tel" required pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" title="###-####-####"><br>
+      email address: <input type="email" name="email" value=""><br>
+      Body:<br>
+      <textarea name="comment" rows="5" cols="50"></textarea><br>
+      <input type="submit" value="Send" />
+      <input type="reset" value="reset" />
+    </form>
+
+    <br>
+    <br>
+
+
+  </body>
+
+</html>

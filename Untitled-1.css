@@ -1,0 +1,40 @@
+h1,
+p,
+body {
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  font-size: 16pt;
+
+}
+
+h1 {
+  border-bottom: 1px solid grey;
+}
+
+h2 {
+  border-bottom: 1px solid grey 2.0em;
+}
+
+p.first {
+  color: lavender;
+}
+
+p.second {
+  color: lightsalmon;
+}
+
+p.shorthand {
+  font: italic 30px arial, sans-serif;
+}
+
+p.poem {
+  width: 11em;
+  border: 1px solid #0000;
+  word-wrap: break-word;
+  column-count: 2;
+  column-gap: 10px;
+  column-rule: 4px outset greenyellow;
+  background-color: white;
+  text-align: justify;
+  color: grey;
+}

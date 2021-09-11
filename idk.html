@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            a:link {color : red};
+            a:visited { color: green;}
+            a:hover {color: blue;}
+            a:active {color: magenta;}
+
+            ul {
+                list-style: none;
+                text-align: center;
+                border-top:  1px solid red; border-bottom: 1px solid red; padding: 10px 0;
+            }
+            ul li {
+                display: inline;
+                text-transform: uppercase;
+                padding: 0 10px; letter-spacing: 10px;
+            }
+
+            ul li a {
+                text-decoration: none; color: black;
+            }
+
+            ul li a:hover {
+                text-decoration: underline;
+            }
+
+
+            table {
+                border-collapse: collapse;
+            }
+
+            table, th, td {
+                border: 1px solid green;
+                empty-cells: collapse;
+            }
+            
+        </style>
+    </head>
+    <body>
+
+        <h1>Always remember, content, padding, border, margin!</h1>
+        <p><a href = "" target ="_blank">This and that</a></p>
+
+        <ul>
+            <li><a href ="#">Home</a></li>
+            <li><a href ="#">Blog</a></li>
+            <li><a href ="#">About</a></li>
+            <li><a href ="#">Contract</a></li>
+        </ul>
+
+        <table>
+            <tr>
+                <th>name</th>
+                <th>email</th>
+            </tr>
+            <tr>
+                <td>John Appleseed</td>
+                <td>johnappleseed@apple.com</td>
+            </tr>
+            <tr>
+                <td>Alice Green</td>
+                <td>alicegreen@google.com</td>
+            </tr>
+        </table>
+
+    </body>
+</html>
